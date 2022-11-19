@@ -1,0 +1,35 @@
+1) NonStandardPackage 1000 Time=0, Location=Customer, status= CREATION
+2) StandardPackage 1001 Time=0, Location=Customer, status= CREATION
+3) StandardPackage 1001 Time=0, Location=Van 2026, status= COLLECTION
+4) NonStandardPackage 1000 Time=1, Location=NonStandardTruck 2005, status= COLLECTION
+5) StandardPackage 1002 Time=5, Location=Customer, status= CREATION
+6) StandardPackage 1002 Time=5, Location=Van 2027, status= COLLECTION
+7) StandardPackage 1003 Time=6, Location=Customer, status= CREATION
+8) StandardPackage 1003 Time=6, Location=Van 2011, status= COLLECTION
+9) SmallPackage 1004 Time=10, Location=Customer, status= CREATION
+10) SmallPackage 1004 Time=10, Location=Van 2028, status= COLLECTION
+11) SmallPackage 1005 Time=15, Location=Customer, status= CREATION
+12) SmallPackage 1005 Time=15, Location=Van 2012, status= COLLECTION
+13) NonStandardPackage 1006 Time=18, Location=Customer, status= CREATION
+14) NonStandardPackage 1007 Time=23, Location=Customer, status= CREATION
+15) NonStandardPackage 1008 Time=24, Location=Customer, status= CREATION
+16) NonStandardPackage 1009 Time=28, Location=Customer, status= CREATION
+17) NonStandardPackage 1000 Time=40, Location=NonStandardTruck 2005, status= DISTRIBUTION
+18) NonStandardPackage 1000 Time=50, Location=Customer, status= DELIVERED
+19) NonStandardPackage 1006 Time=50, Location=NonStandardTruck 2005, status= COLLECTION
+20) NonStandardPackage 1006 Time=70, Location=NonStandardTruck 2005, status= DISTRIBUTION
+21) StandardPackage 1001 Time=79, Location=Branch 4, status= BRANCH_STORAGE
+22) StandardPackage 1002 Time=84, Location=Branch 4, status= BRANCH_STORAGE
+23) SmallPackage 1004 Time=89, Location=Branch 4, status= BRANCH_STORAGE
+24) StandardPackage 1001 Time=99, Location=StandardTruck 2004, status= HUB_TRANSPORT
+25) StandardPackage 1002 Time=99, Location=StandardTruck 2004, status= HUB_TRANSPORT
+26) SmallPackage 1004 Time=99, Location=StandardTruck 2004, status= HUB_TRANSPORT
+27) StandardPackage 1003 Time=105, Location=Branch 1, status= BRANCH_STORAGE
+28) StandardPackage 1001 Time=109, Location=HUB, status= HUB_STORAGE
+29) StandardPackage 1002 Time=109, Location=HUB, status= HUB_STORAGE
+30) SmallPackage 1004 Time=109, Location=HUB, status= HUB_STORAGE
+31) SmallPackage 1005 Time=114, Location=Branch 1, status= BRANCH_STORAGE
+32) SmallPackage 1004 Time=140, Location=StandardTruck 2002, status= BRANCH_TRANSPORT
+33) NonStandardPackage 1006 Time=150, Location=Customer, status= DELIVERED
+34) NonStandardPackage 1007 Time=150, Location=NonStandardTruck 2005, status= COLLECTION
+35) StandardPackage 1001 Time=169, Location=StandardTruck 2001, status= BRANCH_TRANSPORT
