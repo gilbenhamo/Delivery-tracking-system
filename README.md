@@ -16,9 +16,8 @@ The Package Delivery Tracking System is a Java-based application that facilitate
     4. Run the application and interact with the GUI to perform package tracking and management operations.
 
 ## Dependencies and Design Patterns
-
 - Java Development Kit (JDK): Ensure JDK version 8 or above is installed.
-- Design Patterns: The system utilizes various design patterns, such as Observer for tracking updates, Strategy for route optimization, and MVC (Model-View-Controller) for GUI implementation.
+
 
 ## Author
 
